@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors:{
         principal: '#2D76F9',
+        'gray-custom' : '#7B7B7B',
       }
     },
   },

@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${popppins.className} h-full`}>{children}</body>
+      <body className={`${popppins.className} h-full py-20`}>{children}</body>
     </html>
   )
 }
