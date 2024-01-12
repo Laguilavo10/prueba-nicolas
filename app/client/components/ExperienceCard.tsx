@@ -12,7 +12,7 @@ export default function ExperienceCard({
   image
 }: ExperienceCardProps) {
   return (
-    <article className='bg-[#ECECEC] border-4 border-white border-b-0 max-w-[305px] h-[595px] rounded-[32px] rounded-b-none flex flex-col gap-11'>
+    <article className='bg-[#ECECEC] border-4 border-white border-b-0 w-[305px] h-[595px] rounded-[32px] rounded-b-none flex flex-col gap-11'>
       <div className='px-6 mt-11 flex flex-col gap-4 '>
         <h3 className='text-xl font-semibold'>{title}</h3>
         <p className='text-sm text-gray-custom font-normal'>{description}</p>
