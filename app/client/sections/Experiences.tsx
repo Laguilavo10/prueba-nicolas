@@ -40,7 +40,7 @@ export default function Experiences() {
           </span>
         </div>
         <ul className='flex justify-between relative mt-32 gap-4 overflow-auto xl:overflow-visible snap-x '>
-          <div className=' absolute -z-10 xl:w-[80%] h-[90%] xl:h-[110%] rounded-t-3xl bg-[#ECECEC] bottom-0 right-0 left-0 mx-auto' />
+          <div className=' absolute -z-10 xl:w-[80%] h-[90%] xl:h-[110%] rounded-t-3xl bg-[#ECECEC] bottom-0 right-0 left-0 mx-auto bg-opacity-25' />
           {experiences.map((experience) => (
             <li key={experience.title} className='snap-center'>
               <ExperienceCard {...experience} />
